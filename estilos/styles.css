@@ -28,8 +28,13 @@ body{
     width: 30%;
 }
 
+.imagen_cv{
+    border-radius: 100%;
+    width: 80%;
+}
+
 .titulo{  
-    font-family: "Roboto", sans-serif;
+    font-family: "Nerko One",sans-serif;
     font-style: normal;
     color: black;
     font-size: 80px;
@@ -64,12 +69,43 @@ footer{
     display: flex;
     justify-content: center;
     background: black;
+    color: #f3eedd;
 }
 
 main{
     flex: 1;
 }
 
-.footer{
-    color: #f3eedd;
+main, #nosotros {
+    display: flex;
+    flex-wrap: wrap;
+    height: 100vh; /* Para que ocupe toda la altura de la ventana */
+}
+
+.parte {
+    flex: 1;
+    margin: 10px;
+    padding: 20px;
+    text-align: center;
+}
+
+#arribaDerecha {
+    background-color: #aba685;
+}
+
+#arribaIzquierda {
+    background-color: #9785ab;
+}
+
+#abajoDerecha {
+    background-color: #c4b348;
+}
+
+#abajoIzquierda {
+    background-color: #c03838;
+}
+
+
+.links_cv{
+padding-top: 40%;
 }
