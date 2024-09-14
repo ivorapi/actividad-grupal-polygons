@@ -186,10 +186,12 @@ margin-top: 50px;
 
 @media (max-width:700px) {
 
-    .parte {
-        flex: 1;
-        margin: 0;
-        text-align: center;
-        border-radius: 3px;
-    }
+ .parte {
+    margin: 0;
+ }
+ main, #nosotros {
+    flex-direction: column;
+    height: auto;
+}
+
 }   
