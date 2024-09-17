@@ -300,10 +300,13 @@ html {
     #imagensoporte  {
         width: 100px;
         height: 100px;
+        max-width: 100%;
     }
 
-    #imagensoporte2  {
-margin-left: 25%;
+    .soporte-item {
+        display: flex;
+        flex-direction: column;
+        margin: 10px;
     }
         
     }
