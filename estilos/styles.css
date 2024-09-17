@@ -76,6 +76,7 @@ footer{
 
 main{
     flex: 1;
+    
 }
 
 main, #nosotros {
@@ -90,6 +91,7 @@ main, #nosotros {
     padding: 20px;
     text-align: center;
     border-radius: 3px;
+    
 }
 
 .parte:hover {
@@ -99,6 +101,7 @@ main, #nosotros {
 
 #arribaDerecha {
     background-color: #A8A4BF;
+    
 }
 
 #arribaDerecha:hover {
