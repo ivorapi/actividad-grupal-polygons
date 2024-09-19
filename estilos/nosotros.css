@@ -1,0 +1,139 @@
+main{
+    flex: 1;
+}
+
+main, #nosotros {
+    display: flex;
+    flex-wrap: wrap;
+    height: 100vh;
+}
+
+.parte {
+    flex: 1;
+    margin: 30px;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.titulo_nosotros {
+    width: 100%;
+    text-align: center;
+    font-size: 70px;
+    font-family: "Montserrat";
+    margin-bottom: 20px;
+    color: #000000; 
+    font-weight: bold;
+}
+
+.parte:hover {
+    transform: scale(1.02);
+    transition: ease-in 0.2s;
+}
+
+#arribaDerecha {
+    background-color: #A8A4BF;
+    
+}
+
+#arribaDerecha:hover {
+    background-color: #a3a3a3;
+}
+
+#arribaIzquierda {
+    background-color: #000000;
+}
+#arribaIzquierda:hover {
+    background-color: #464545;
+}
+
+
+#abajoDerecha {
+    background-color: #000000;
+}
+
+#abajoDerecha:hover {
+    background-color: #464545;
+}
+
+
+#abajoIzquierda {
+    background-color: #A8A4BF;
+}
+#abajoIzquierda:hover {
+    background-color: #a3a3a3;
+}
+
+
+.links_cv{
+padding-top: 40%;
+margin-top: 50px;
+}
+
+.imagen_cv {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.nombre_integrante {
+    font-size: 30px;
+    font-family: "Montserrat";
+    font-weight: 500;
+}
+
+.nombre_integrante_white {
+    color: white;
+    font-size: 30px;
+    font-family: "Montserrat";
+    font-weight: 500;
+}
+
+.info_personal_white {
+    color: white;
+    font-size: 15px;
+    font-family: "Montserrat";
+}
+
+.info_personal {
+    color: black;
+    font-size: 15px;
+    font-family: "Montserrat";
+}
+
+.links_cv, .links_cv_white {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    margin-top: auto; /* Hace que los botones se alineen en la parte inferior */
+    margin-bottom: 30px;
+}
+
+.boton_descargar {
+    width: 150px;
+    border-radius: 30px;
+    border: 1px solid #f3eedd;
+    padding: 10px;
+    text-align: center;
+}
+
+.boton_descargar:hover {
+    background-color: #181818;
+    transition: ease-in 0.2s;
+}
+
+@media (max-width:700px) {
+
+ .parte {
+    margin: 0;
+ }
+ main, #nosotros {
+    flex-direction: column;
+    height: auto;
+}
+
+}   
