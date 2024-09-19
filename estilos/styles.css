@@ -9,38 +9,6 @@ body{
     background-color: #E7E3FF;
 }
 
-.inicio{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    margin: auto;
-    max-width: 1000px;
-    padding-top: 100px;
-  }
-
-.logo{
-    width: 5%;
-    margin-left: 20px;
-}
-
-.imagen_portada{
-    border-radius: 100%;
-    width: 30%;
-}
-
-.imagen_cv{
-    border-radius: 50%;
-    width: 50%;
-}
-
-.titulo{  
-    font-family: "Montserrat",sans-serif;
-    font-style: normal;
-    color: black;
-    font-size: 80px;
-    padding-bottom: 100px;
-}
 
 header {
     min-height: 70px;
@@ -380,4 +348,36 @@ html {
         
     }
 
-
+    .inicio{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        margin: auto;
+        max-width: 1000px;
+        padding-top: 100px;
+      }
+    
+    .logo{
+        width: 5%;
+        margin-left: 20px;
+    }
+    
+    .imagen_portada{
+        border-radius: 100%;
+        width: 30%;
+    }
+    
+    .imagen_cv{
+        border-radius: 50%;
+        width: 50%;
+    }
+    
+    .titulo{  
+        font-family: "Montserrat",sans-serif;
+        font-style: normal;
+        color: black;
+        font-size: 80px;
+        padding-bottom: 100px;
+    }
+    
