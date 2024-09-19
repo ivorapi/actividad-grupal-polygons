@@ -258,7 +258,7 @@ html {
         padding-bottom: 100px;
     }
 
-    nav a.active {
+    .nav a.active {
         background-color:#464545;
         color: rgb(238, 238, 238);
          border-radius: 20px;
@@ -437,4 +437,3 @@ html {
        
        }  
 
-       
