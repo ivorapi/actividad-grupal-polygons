@@ -101,9 +101,11 @@ footer{
     display: flex;
     justify-content: space-between;
     flex-grow: 1;
+    
 
 
 }
+
 
 .iconosfooter {
     display: flex;
@@ -120,6 +122,16 @@ footer{
     align-items: center;
     
 }
+
+@media (max-width:700px) {
+
+    .contenedorfooter {
+        flex-direction: column;
+        align-items: center;
+    }
+
+   
+   }  
 
 .copy {
     text-align: center;
